@@ -25,7 +25,7 @@ makeDivs(16); // creating standard 16x16 grid
 function deleteGrid() {
     var el = document.getElementById('container');
     while (el.firstChild) el.removeChild(el.firstChild);
-}
+} // shoutout to stackoverflow guy
 
 
 // button which deletes original 16x16 grid and generates a new grid using user input
